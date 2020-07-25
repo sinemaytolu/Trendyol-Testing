@@ -27,9 +27,9 @@ public class login{
 	    Thread.sleep(2000);
         driver.findElement(By.cssSelector("[data-id='39601687']")).click();
         Thread.sleep(2000);
-    
         
-        driver.findElement(By.className("add-to-bs-tx")).sendKeys("Sepete Ekle", Keys.ENTER);
+        
+        driver.findElement(By.className("add-to-bs-tx")).click();
         
         driver.findElement(By.className("basket-button-container")).click();
        
